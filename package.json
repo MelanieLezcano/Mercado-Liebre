@@ -1,0 +1,23 @@
+{
+  "name": "estructura-de-un-sitio-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelanieLezcano/Estructura-de-un-sitio-web.git"
+  },
+  "keywords": [],
+  "author": "melanie lezcano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelanieLezcano/Estructura-de-un-sitio-web/issues"
+  },
+  "homepage": "https://github.com/MelanieLezcano/Estructura-de-un-sitio-web#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
