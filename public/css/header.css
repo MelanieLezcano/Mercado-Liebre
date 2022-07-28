@@ -1,0 +1,10 @@
+header{
+    position: relative;
+    background-color: var(--amarillo);
+    width: 100%;
+}
+header img{
+    width: 120px;
+    margin: 25px;
+    margin-bottom: 10px;
+}
