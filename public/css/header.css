@@ -1,10 +1,34 @@
 header{
     position: relative;
+    color: var(--azul);
     background-color: var(--amarillo);
-    width: 100%;
+    font-size: var(--descripciones);
 }
+
+header a{
+    color: var(--azul);
+}
+
 header img{
     width: 120px;
     margin: 25px;
     margin-bottom: 10px;
 }
+
+header .cuotas{
+    text-align: center;
+}
+
+header .burguerMenu{
+    font-size: 22px;
+    color: white;
+    background-color: var(--celeste);
+    padding: 12px;
+    border-radius: 10px;
+    border: none
+}
+
+header .burguerMenuPosition{
+    text-align: center;
+}
+
