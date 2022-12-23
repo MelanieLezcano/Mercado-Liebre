@@ -1,15 +1,24 @@
 header{
+    width: 100%;
     position: relative;
     color: var(--azul);
     background-color: var(--amarillo);
     font-size: var(--descripciones);
 }
 
+header .buscador i{
+    font-size: 13px;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid var(--grisOscuro);
+    border-radius: 4px;
+}
+
 header a{
     color: var(--azul);
 }
 
-header img{
+header .logo img{
     width: 120px;
     margin: 25px;
     margin-bottom: 10px;

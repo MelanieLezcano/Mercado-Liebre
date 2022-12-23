@@ -1,5 +1,7 @@
 footer{
+    padding: 20px 15px 10px;
     background-color: var(--grisClaro);
+    width: 100%;
 }
 
 footer section{
