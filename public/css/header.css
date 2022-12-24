@@ -1,43 +1,66 @@
 header{
     width: 100%;
-    position: relative;
-    color: var(--azul);
+    height: auto;
     background-color: var(--amarillo);
-    font-size: var(--descripciones);
 }
 
-header .buscador i{
-    font-size: 13px;
-    padding: 2px;
-    background-color: white;
-    border: 1px solid var(--grisOscuro);
-    border-radius: 4px;
-}
+header .top{
 
-header a{
-    color: var(--azul);
 }
 
 header .logo img{
-    width: 120px;
-    margin: 25px;
-    margin-bottom: 10px;
+    width: 35%;
+    margin-top: 29px;
+    margin-left: 26px;
+    margin-bottom: 11px;
+}
+
+header .buscador{
+    width: 55%;
+    margin-left: 18px;
 }
 
 header .cuotas{
+    width: 100%;
+    margin-top: 25px;
     text-align: center;
+    color: var(--azul);
+    font-size: var(--cuerposDeTexto);
+}
+
+header .lista1 a{
+    font-size: var(--cuerposDeTexto);
+    color: var(--azul);
+    margin-left: 18px;
+}
+
+header ul{
+    margin-top: 14px;
+}
+
+header .lista2 a{
+    font-size: var(--cuerposDeTexto);
+    color: var(--azul);
+    margin-left: 18px; 
+}
+
+header .lista2 i{
+    margin-left: 5px;
+
 }
 
 header .burguerMenu{
-    font-size: 22px;
-    color: white;
-    background-color: var(--celeste);
-    padding: 12px;
-    border-radius: 10px;
-    border: none
-}
-
-header .burguerMenuPosition{
     text-align: center;
 }
+
+header .burguerMenu i{
+    text-align: center;
+    color: white;
+    background-color: var(--celeste);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 21px;
+    font-size: 21px;
+}
+
 
