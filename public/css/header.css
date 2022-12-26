@@ -113,6 +113,71 @@ header .burguer{
     header .burguerMenu{
         display: none;
     }
+
+    header .logo img{
+        width: 100%;
+        padding-left: 10%;
+
+    }
+
+    header .logo{
+        width: 100%;
+    }
+
+    header .buscador input{
+        width: 100%;
+        height: 48%;
+    }
+
+    header .buscador{
+        width: 78%;
+    }
+
+    header .lupa i{
+        top: 22px;
+    }
+
+    header .logoBuscador{
+
+    }
+
+    header .cuotas{
+        width: 59%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header .top{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    header .lista1 ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    header .lista1 a {
+        margin-right: 18px;
+        margin-left: 0;
+    }
+
+    header .lista2 ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 }
 
 @media (min-width:769px){
