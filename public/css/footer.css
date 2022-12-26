@@ -13,7 +13,8 @@ footer section{
 
 footer i{
     color: var(--celeste);
-    font-size: 27px;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 footer h3{
@@ -31,4 +32,9 @@ footer h4{
     color: var(--grisOscuro);
     font-size: var(--cuerposDeTexto);
     text-align: start;
+    padding: 20px;
+}
+
+footer article{
+    padding: 33px;
 }
