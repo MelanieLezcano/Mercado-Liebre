@@ -8,11 +8,14 @@ main section article i{
     color: #39b54a;
     border-radius: 50%;
     position: relative;
-    right: -289px;
+    right: -239px;
     top: -15px;
 }
 
 main article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: start;
     border-top: 1px solid #ebebeb;
 }
@@ -70,7 +73,9 @@ main h2{
 }
 
 main h4{
-    visibility: hidden;
+    color: var(--grisOscuro);
+    font-size: var(--descripciones);
+    padding: 17px;
 }
 
 
