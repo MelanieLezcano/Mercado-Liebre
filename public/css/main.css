@@ -1,33 +1,53 @@
-main section article i{
+main section article .envio i{
+    display: block;
     font-size: 16px;
     padding: 5px;
     width: 30px;
     height: 30px;
+    color: var(--verde);
     border: 1px solid #39b54a;
     background-color: #FFF;
-    color: #39b54a;
     border-radius: 50%;
-    /*
-    position: relative;
-    right: -239px;
-    top: -15px; */
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    z-index: 1;
 }
 
 main{
     width: 90%;
     margin: 0 auto;
+
+}
+
+main .section1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main .section2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 main article{
-    width: 100%;
     text-align: start;
     border-top: 1px solid #ebebeb;
     padding: 10px;
+    position: relative;
 
 }
 
 main .articulo{
     background-color: #FFF;
+    width: 304px;
+    height: 401px;
 }
 
 main .caja{
@@ -35,6 +55,7 @@ main .caja{
     
     width: 100%;
     padding: 17px;
+    position: relative;
 }
 
 main .imagen img{
@@ -54,6 +75,12 @@ main .envio{
     margin-bottom: 7px;
 } */
 
+main .precioDescuento{
+    display: flex;
+    flex-direction: row;
+
+}
+
 
 main .precio{
     font-size: var(--precios);
@@ -64,6 +91,7 @@ main .precio{
 main .descuento{
     font-size: var(--descuentos);
     color: var(--verde);
+    margin-left: 10px;
 }
 
 main .descuento p{
