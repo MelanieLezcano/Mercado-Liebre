@@ -46,7 +46,10 @@ header .lista2 a{
 
 header .lista2 i{
     margin-left: 5px;
+}
 
+header .lista2{
+    padding-bottom: 17px;
 }
 
 header .burguerMenu{
@@ -61,6 +64,23 @@ header .burguerMenu i{
     border-radius: 5px;
     margin: 21px;
     font-size: 21px;
+}
+
+header .burguer{
+    display: none;
+}
+
+@media (min-width:361px){
+    header .burguer{
+        display: block;
+    }
+    header .burguerMenu{
+        display: none;
+    }
+}
+
+@media (min-width:769px){
+
 }
 
 
