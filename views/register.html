@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/901c43a415.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Mercado Liebre</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+
+    <label for="nombreYapellido">Nombre y Apellido</label>
+    <input type="text" name="nombreYapellido" placeholder="Nombre y Apellido">
+    <label for="nombreUsuario">Nombre de Usuario</label>
+    <input type="text" name="nombreUsuario" placeholder="Nombre de Usuario">
+    <input type="date" name="cumpleanios" value="2022-12-26" min="1940-01-01">
+    <label type="text" for="domicilio">Domicilio</label>
+    <input type="text" name="domicilio" placeholder="Domicilio">
+
+    <label for="perfilUsuario">Perfil del usuario</label>
+    <input type="radio" name="perfilUsuario" value="Comprador">
+    <input type="radio" name="perfilUsuario" value="Vendedor">
+
+    <label for="interes">Categorías de interés</label>
+    <input type="checkbox" name="interes" value="Electro">
+    <input type="checkbox" name="interes" value="Moda">
+    <input type="checkbox" name="interes" value="Hogar">
+    <input type="checkbox" name="interes" value="Juguetería">
+    <input type="checkbox" name="interes" value="Vida sana">
+
+    <label for="foto">Foto de usuario</label>
+    <input type="file" name="imagen" accept="img/*" placeholder="Elige una imagen">
+    
+    <label for="contrasenia">Contraseña</label>
+    <input type="text" name="contrasenia" placeholder="Contraseña">
+    <label for="Contrasenia2">Confirmar contraseña</label>
+    <input type="text" name="Contrasenia2" placeholder="Confirmar contraseña">
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Borrar</button>
+</form>
+</body>
+
+</html>
