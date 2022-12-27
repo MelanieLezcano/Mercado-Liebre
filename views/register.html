@@ -11,38 +11,127 @@
 </head>
 
 <body>
+    <header>
+        <div class="top">
+            <div class="logoBuscador">
+            <div class="logo">
+                <a href="/"><img src="/img/logo-mercado-liebre.svg" alt="logo mercado liebre"></a>
+            </div>
+            <form action="" method="get">
+            <div class="buscador">
+                <input type="text" maxlength="100" placeholder="Buscar">
+                <div class="lupa">
+                <button class="lupaI" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            </div>
+        </form>
+        </div>
+            <div class="cuotas">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <span>Comprá en cuotas y sin tarjeta de crédito</span>
+            </div>
+        </div>
+        <div class="burguer">
+            <nav>
+                <div class="lista1">
+                    <ul>
+                        <li><a href="">Ofertas</a></li>
+                        <li><a href="">Tiendas Oficiales</a></li>
+                        <li><a href="">Vender</a></li>
+                        <li><a href="">Ayuda</a></li>
+                    </ul>
+                </div>
+                <div class="lista2">
+                    <ul>
+                        <li><a href="/register">Creá tu cuenta</a><i class="fa-solid fa-id-card"></i></li>
+                        <li><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                        <li><a href="">Mis compras</a><i class="fa-solid fa-cart-shopping"></i></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="burguerMenu">
+            <label for="burguer"><i class="fa-solid fa-bars"></i></label>
+        </div>
+    </header>
+    <div class="register">
     <form action="" method="POST">
 
-    <label for="nombreYapellido">Nombre y Apellido</label>
+    <label for="nombreYapellido"></label>
     <input type="text" name="nombreYapellido" placeholder="Nombre y Apellido">
-    <label for="nombreUsuario">Nombre de Usuario</label>
+    <label for="nombreUsuario"></label>
     <input type="text" name="nombreUsuario" placeholder="Nombre de Usuario">
-    <input type="date" name="cumpleanios" value="2022-12-26" min="1940-01-01">
-    <label type="text" for="domicilio">Domicilio</label>
+    <label for="cumpleanios" class="cumpleanios">Fecha de nacimiento</label>
+    <input type="date" name="cumpleanios" value="yyyy-mm-dd" min="1940-01-01">
+    <label type="text" for="domicilio"></label>
     <input type="text" name="domicilio" placeholder="Domicilio">
 
-    <label for="perfilUsuario">Perfil del usuario</label>
-    <input type="radio" name="perfilUsuario" value="Comprador">
-    <input type="radio" name="perfilUsuario" value="Vendedor">
 
-    <label for="interes">Categorías de interés</label>
-    <input type="checkbox" name="interes" value="Electro">
-    <input type="checkbox" name="interes" value="Moda">
-    <input type="checkbox" name="interes" value="Hogar">
-    <input type="checkbox" name="interes" value="Juguetería">
-    <input type="checkbox" name="interes" value="Vida sana">
+    <h2>Perfil del usuario</h2>
+    <article class="article2">
+    <label for="perfilUsuario">
+        <input type="radio" name="perfilUsuario" value="comprador">
+        Comprador</label>
+    <label for="perfilUsuario">
+        <input type="radio" name="perfilUsuario" value="Vendedor">
+        Vendedor</label>
+    </article>
+
+    <h2>Interes</h2>
+    <article class="article3">
+    <label for="intereses">
+    <input type="checkbox" name="interes" value="electro">
+    Electro</label>
+    <label for="intereses">
+    <input type="checkbox" name="interes" value="moda">
+    Moda</label>
+    <label for="intereses">
+    <input type="checkbox" name="interes" value="hogar">
+    Hogar</label>
+    <label for="intereses">
+    <input type="checkbox" name="interes" value="jugueteria">
+    Juguetería</label>
+    <label for="intereses">
+    <input type="checkbox" name="interes" value="vidaSana">
+    Vida sana</label>
+</article>
 
     <label for="foto">Foto de usuario</label>
     <input type="file" name="imagen" accept="img/*" placeholder="Elige una imagen">
     
-    <label for="contrasenia">Contraseña</label>
+    <label class="subtitulo" for="contrasenia">Contraseña</label>
     <input type="text" name="contrasenia" placeholder="Contraseña">
-    <label for="Contrasenia2">Confirmar contraseña</label>
+    <label class="subtitulo" for="Contrasenia2">Confirmar contraseña</label>
     <input type="text" name="Contrasenia2" placeholder="Confirmar contraseña">
 
     <button type="submit">Enviar</button>
     <button type="reset">Borrar</button>
 </form>
+</div>
+<footer>
+    <section>
+        <article>
+            <i class="fa-solid fa-credit-card"></i>
+            <h3>Pagá con tarjeta o en efectivo</h3>
+            <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre
+                es seguro!</p>
+        </article>
+        <article>
+            <i class="fa-solid fa-gift"></i>
+            <h3>Envío gratis desde $ 2.500</h3>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un
+                beneficio de Mercado Puntos.</p>
+        </article>
+        <article>
+            <i class="fa-solid fa-user-shield"></i>
+            <h3>Seguridad de principio a fin</h3>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre
+                protegid@.</p>
+        </article>
+        <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+    </section>
+</footer>
+
 </body>
 
 </html>

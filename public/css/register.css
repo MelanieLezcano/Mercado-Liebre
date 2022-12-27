@@ -1,0 +1,68 @@
+.register form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.register input{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.register .cumpleanios{
+    margin-bottom: 18px;
+    font-size: var(--precios);
+    color: var(--grisOscuro);
+}
+
+.register h2{
+    margin-bottom: 18px;
+    font-size: var(--precios);
+    color: var(--grisOscuro);
+}
+
+.register .article2{
+    display: flex;
+    flex-direction: row
+}
+
+.register .article2 label{
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.register .article2 input{
+    margin-right: 23px;
+}
+
+.register .article3{
+    display: flex;
+    flex-direction: column
+}
+
+.register .article3 label{
+    padding-right: 20px;
+    padding-left: 25px;
+}
+
+.register .article3 input{
+    margin-right: 23px;
+}
+
+.register .subtitulo{
+    margin-bottom: 10px;
+}
+
+.register button{
+    border: none;
+    padding: 10px;
+    background-color: var(--celeste);
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
